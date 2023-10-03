@@ -1,14 +1,62 @@
 {
-  "name": "unicorn-index-page",
-  "version": "1.0.0",
-  "description": "index page for unicron services and projects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "unicorn"
-  ],
-  "author": "unicorn IT",
-  "license": "ISC"
+	"name": "unicorn-index-page",
+	"version": "1.0.0",
+	"description": "index page for unicron services and projects",
+	"main": "index.js",
+	"scripts": {
+		"test-markup": "gulp validateMarkup --silent && gulp lintBemMarkup",
+		"stylelint": "stylelint \"./src/styles/**/*.scss\" --custom-syntax postcss-scss",
+		"stylelint--fix": "stylelint \"./src/styles/**/*.scss\" --custom-syntax postcss-scss --fix",
+		"es-lint": "eslint src/**/*.js",
+		"build": "gulp runBuild",
+		"start": "gulp runDev"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AntonOshurek/unicorn-index-page"
+	},
+	"bugs": {
+		"url": "https://github.com/AntonOshurek/unicorn-index-page"
+	},
+	"homepage": "https://github.com/AntonOshurek/unicorn-index-page#readme",
+	"keywords": [
+		"unicorn"
+	],
+	"devDependencies": {
+		"@babel/core": "^7.22.10",
+		"@babel/preset-env": "^7.22.10",
+		"autoprefixer": "^10.4.14",
+		"babel-loader": "^9.1.3",
+		"browser-sync": "^2.29.3",
+		"core-js": "^3.32.0",
+		"csso": "^5.0.5",
+		"del": "^7.0.0",
+		"eslint": "^8.46.0",
+		"eslint-config-eslint": "^9.0.0",
+		"gulp": "^4.0.2",
+		"gulp-html-bemlinter": "^2.1.4",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-notify": "^4.0.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-postcss": "^9.0.1",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-sitemap": "^8.0.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-w3c-html-validator": "^5.2.0",
+		"postcss-csso": "^6.0.1",
+		"postcss-scss": "^4.0.6",
+		"sass": "^1.65.1",
+		"stylelint": "^15.10.2",
+		"stylelint-order": "^6.0.3",
+		"webpack": "^5.88.2",
+		"webpack-stream": "^7.0.0",
+		"stylelint-config-standard-scss": "^10.0.0"
+	},
+	"author": "unicorn IT",
+	"license": "ISC"
 }
