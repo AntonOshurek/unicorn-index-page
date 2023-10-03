@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"mBAAAA,OAAOC,iBAAiB,oBAAoB,KAC3CC,QAAQC,IAAI,qBAAqB,G","sources":["webpack://unicorn-index-page/./src/scripts/index.js"],"sourcesContent":["window.addEventListener('DOMContentLoaded', () => {\n\tconsole.log('Hello from gulp :)');\n});\n"],"names":["window","addEventListener","console","log"],"sourceRoot":""}
