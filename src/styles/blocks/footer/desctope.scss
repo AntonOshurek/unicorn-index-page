@@ -1,0 +1,18 @@
+/* DESCTOPE */
+
+@import '../../variables/variables.scss';
+
+@media (max-width: $desctope-width) {
+	.footer__wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.footer__adress {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+}

@@ -1,0 +1,39 @@
+/* BASE */
+
+.footer {
+	width: 100%;
+	height: max-content;
+	padding: var(--standart-top-padding) var(--standart-side-padding);
+	background-color: transparent;
+	box-shadow: 0 -2px 5px rgba(156, 156, 156, 0.2);
+}
+
+.footer__text {
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.8px;
+	color: var(--text-secondary);
+	position: relative;
+	text-decoration: none;
+	font-style: normal;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&:not(:last-child)::after {
+		content: '|';
+		position: absolute;
+		top: 0;
+		right: -10px;
+		width: 2px;
+		height: 100%;
+		transform: translateX(1px);
+	}
+}
+
+.footer__link {
+	&:hover {
+		color: var(--text-primary);
+	}
+}
