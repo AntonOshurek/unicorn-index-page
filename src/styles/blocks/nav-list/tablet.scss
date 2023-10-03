@@ -2,4 +2,12 @@
 
 @import '../../variables/variables.scss';
 
-@media (min-width: calc($mobile-width + 1px)) and (max-width: $tablet-width) {}
+@media (min-width: calc($mobile-width + 1px)) and (max-width: $tablet-width) {
+	.nav-list {
+		display: grid;
+		grid-template-columns: repeat(3, 150px);
+		grid-template-rows: 1fr;
+		gap: 40px;
+		justify-content: center;
+	}
+}
