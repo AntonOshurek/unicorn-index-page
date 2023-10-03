@@ -4,4 +4,9 @@
 	padding: var(--standart-top-padding) var(--standart-side-padding);
 }
 
-.main__wrap {}
+.main__wrap {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
