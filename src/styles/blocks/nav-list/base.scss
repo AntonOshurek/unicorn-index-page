@@ -10,6 +10,14 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr min-content;
+
+	&:hover {
+		.nav-list__item-img {
+			background: transparent;
+			box-shadow: 25px 25px 49px #a4a4a4,
+				-25px -25px 49px #ffffff;
+		}
+	}
 }
 
 .nav-list__item-img {
