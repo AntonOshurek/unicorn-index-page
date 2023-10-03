@@ -1,5 +1,5 @@
 /* DESCTOPE */
 
-@import '../../variables/variables.scss';
+@import '../../variables/variables';
 
-@media (min-width: calc($tablet-width + 1px)) {}
+@media (width >= calc($tablet-width + 1px)) {}

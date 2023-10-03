@@ -1,13 +1,13 @@
 /* DESCTOPE */
 
-@import '../../variables/variables.scss';
+@import '../../variables/variables';
 
-@media (min-width: calc($tablet-width + 1px)) {
+@media (width >= calc($tablet-width + 1px)) {
 	.nav-list {
 		display: grid;
+		justify-content: center;
 		grid-template-columns: repeat(3, 150px);
 		grid-template-rows: 1fr;
 		gap: 40px;
-		justify-content: center;
 	}
 }

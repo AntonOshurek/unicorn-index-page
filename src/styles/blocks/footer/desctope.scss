@@ -1,12 +1,12 @@
 /* DESCTOPE */
 
-@import '../../variables/variables.scss';
+@import '../../variables/variables';
 
-@media (min-width: calc($tablet-width + 1px)) {
+@media (width >= calc($tablet-width + 1px)) {
 	.footer__adress {
 		display: flex;
-		justify-content: center;
 		align-items: center;
+		justify-content: center;
 		gap: 20px;
 	}
 
@@ -14,8 +14,8 @@
 		&:not(:last-child)::after {
 			content: '|';
 			position: absolute;
-			top: 0;
 			right: -10px;
+			top: 0;
 			width: 2px;
 			height: 100%;
 			transform: translateX(1px);

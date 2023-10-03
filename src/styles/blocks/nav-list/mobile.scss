@@ -1,13 +1,13 @@
 /* MOBILE */
 
-@import '../../variables/variables.scss';
+@import '../../variables/variables';
 
 @media (max-width: $mobile-width) {
 	.nav-list {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		flex-wrap: wrap;
 		gap: 10px;
 	}
 }
