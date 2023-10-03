@@ -4,9 +4,11 @@
 
 @media (min-width: calc($tablet-width + 1px)) {
 	.nav-list {
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		display: grid;
+		grid-template-columns: repeat(3, 150px);
+		grid-template-rows: 1fr;
 		gap: 40px;
+		justify-content: center;
+
 	}
 }

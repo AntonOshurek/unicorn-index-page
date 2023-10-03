@@ -4,10 +4,29 @@
 	list-style: none;
 }
 
-.nav-list__item {}
+.nav-list__item {
+	position: relative;
+}
 
-.nav-list__item-title {}
+.nav-list__item-img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 10px;
+}
 
-.nav-list__item-img {}
+.nav-list__item-logo {
+	object-fit: contain;
+	width: 150px;
+	height: 100px
+}
 
-.nav-list__item-link {}
+.nav-list__item-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	z-index: 1;
+}
