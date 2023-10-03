@@ -1,0 +1,25 @@
+/* TABLET */
+
+@import '../../variables/variables.scss';
+
+@media (max-width: $tablet-width) {
+	.footer__adress {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: max-content max-content;
+
+		.footer__text {
+			&::after {
+				display: none;
+			}
+		}
+
+		& .footer__text:nth-child(odd) {
+			justify-self: flex-end;
+		}
+
+		& .footer__text:nth-child(even) {
+			justify-self: flex-start;
+		}
+	}
+}

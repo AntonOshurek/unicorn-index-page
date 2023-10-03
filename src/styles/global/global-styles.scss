@@ -1,9 +1,22 @@
+@import '../variables/variables.scss';
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: var(--basci-font);
+}
 
-	// font-family: 'PT Sans', 'Arial', sans-serif;
+@font-face {
+	src: url('../fonts/worksans.woff2') format('woff2'),
+		url('../fonts/worksans.woff') format('woff');
+	font-family: worksans;
+	font-display: swap;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: $desctope-width;
 }
 
 .visually-hidden {
@@ -12,24 +25,4 @@
 	width: 1px;
 	height: 1px;
 	clip: rect(0 0 0 0);
-}
-
-.body__wrap {
-	width: 100%;
-}
-
-.body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
-
-	// font-family: "PT Sans", "Arial", sans-serif;
-	background-color: #FFFFFF;
-	gap: 10px;
-
-	&--scrolloff {
-		overflow: hidden;
-	}
 }
