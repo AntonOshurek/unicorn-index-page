@@ -1,5 +1,5 @@
 /* DESCTOPE */
 
-@import '../../variables/variables.scss';
+@import '../../variables/variables';
 
-@media (max-width: $desctope-width) {}
+@media (width >= calc($tablet-width + 1px)) {}

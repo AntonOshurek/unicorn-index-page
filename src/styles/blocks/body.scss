@@ -1,8 +1,7 @@
 .body {
-	min-height: 100vh;
-	background: var(--radial-bg);
-
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr max-content;
+	min-height: 100vh;
+	background: var(--radial-bg);
 }

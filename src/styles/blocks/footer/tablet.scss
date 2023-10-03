@@ -1,18 +1,13 @@
 /* TABLET */
 
-@import '../../variables/variables.scss';
+@import '../../variables/variables';
 
-@media (max-width: $tablet-width) {
+@media (width >= calc($mobile-width + 1px)) and (max-width: $tablet-width) {
 	.footer__adress {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: max-content max-content;
-
-		.footer__text {
-			&::after {
-				display: none;
-			}
-		}
+		gap: 20px;
 
 		& .footer__text:nth-child(odd) {
 			justify-self: flex-end;

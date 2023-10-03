@@ -1,5 +1,5 @@
 /* TABLET */
 
-@import '../../variables/variables.scss';
+@import '../../variables/variables';
 
-@media (max-width: $tablet-width) {}
+@media (width >= calc($mobile-width + 1px)) and (max-width: $tablet-width) {}

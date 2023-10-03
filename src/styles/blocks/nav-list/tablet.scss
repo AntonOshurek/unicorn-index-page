@@ -1,5 +1,13 @@
 /* TABLET */
 
-@import '../../variables/variables.scss';
+@import '../../variables/variables';
 
-@media (max-width: $tablet-width) {}
+@media (width >= calc($mobile-width + 1px)) and (max-width: $tablet-width) {
+	.nav-list {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: repeat(3, 150px);
+		grid-template-rows: 1fr;
+		gap: 40px;
+	}
+}

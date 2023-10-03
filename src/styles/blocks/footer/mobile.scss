@@ -1,14 +1,14 @@
 /* MOBILE */
 
-@import '../../variables/variables.scss';
+@import '../../variables/variables';
 
 @media (max-width: $mobile-width) {
 	.footer__adress {
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-start;
 		align-items: center;
-		gap: 10px;
+		justify-content: flex-start;
 		text-align: center;
+		gap: 10px;
 	}
 }

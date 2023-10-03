@@ -1,12 +1,13 @@
 /* DESCTOPE */
 
-@import '../../variables/variables.scss';
+@import '../../variables/variables';
 
-@media (max-width: $desctope-width) {
+@media (width >= calc($tablet-width + 1px)) {
 	.nav-list {
-		display: flex;
-		align-items: center;
+		display: grid;
 		justify-content: center;
+		grid-template-columns: repeat(3, 150px);
+		grid-template-rows: 1fr;
 		gap: 40px;
 	}
 }

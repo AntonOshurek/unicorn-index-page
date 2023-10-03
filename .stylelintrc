@@ -4,6 +4,7 @@
 		"stylelint-order"
 	],
 	"rules": {
+		"block-no-empty": null,
 		"selector-class-pattern": null,
 		"no-descending-specificity": null,
 		"order/order": [
