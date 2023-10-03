@@ -2,4 +2,4 @@
 
 @import '../../variables/variables.scss';
 
-@media (max-width: $tablet-width) {}
+@media (min-width: calc($mobile-width + 1px)) and (max-width: $tablet-width) {}

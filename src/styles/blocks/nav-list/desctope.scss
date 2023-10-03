@@ -2,7 +2,7 @@
 
 @import '../../variables/variables.scss';
 
-@media (max-width: $desctope-width) {
+@media (min-width: calc($tablet-width + 1px)) {
 	.nav-list {
 		display: flex;
 		align-items: center;
