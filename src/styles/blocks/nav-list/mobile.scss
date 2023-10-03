@@ -2,4 +2,12 @@
 
 @import '../../variables/variables.scss';
 
-@media (max-width: $mobile-width) {}
+@media (max-width: $mobile-width) {
+	.nav-list {
+		flex-direction: column;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 40px;
+	}
+}
