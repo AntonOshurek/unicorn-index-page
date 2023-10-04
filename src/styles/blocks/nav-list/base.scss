@@ -10,6 +10,8 @@
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr min-content;
 	gap: 10px;
+	align-items: center;
+	justify-items: center;
 
 	&:hover {
 		.nav-list__item-img {
@@ -22,15 +24,15 @@
 
 .nav-list__item-picture {
 	border-radius: 10px;
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	object-fit: cover;
 }
 
 .nav-list__item-img {
 	border-radius: 10px;
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	object-fit: cover;
 }
 
