@@ -19,6 +19,13 @@
 	}
 }
 
+.nav-list__item-picture {
+	border-radius: 10px;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+
 .nav-list__item-img {
 	border-radius: 10px;
 	width: 150px;
