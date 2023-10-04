@@ -9,6 +9,7 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr min-content;
+	gap: 10px;
 
 	&:hover {
 		.nav-list__item-img {
@@ -17,6 +18,13 @@
 			background: transparent;
 		}
 	}
+}
+
+.nav-list__item-picture {
+	border-radius: 10px;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
 }
 
 .nav-list__item-img {
@@ -28,8 +36,9 @@
 
 .nav-list__item-logo {
 	width: 150px;
-	height: 100px;
-	object-fit: contain
+	height: 38px;
+	object-fit: cover;
+	aspect-ratio: 106/75;
 }
 
 .nav-list__item-link {
