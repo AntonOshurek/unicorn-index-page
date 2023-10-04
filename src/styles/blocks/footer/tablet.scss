@@ -2,7 +2,7 @@
 
 @import '../../variables/variables';
 
-@media (width >= calc($mobile-width + 1px)) and (max-width: $tablet-width) {
+@media (width > calc($mobile-width + 1px)) and (max-width: $tablet-width) {
 	.footer__adress {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
