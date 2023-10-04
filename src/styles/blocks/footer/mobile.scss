@@ -2,7 +2,7 @@
 
 @import '../../variables/variables';
 
-@media (max-width: $mobile-width) {
+@media (width <=$mobile-width) {
 	.footer__adress {
 		display: flex;
 		flex-direction: column;

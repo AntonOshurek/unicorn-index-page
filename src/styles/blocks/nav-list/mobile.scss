@@ -2,7 +2,7 @@
 
 @import '../../variables/variables';
 
-@media (max-width: $mobile-width) {
+@media (width <=$mobile-width) {
 	.nav-list {
 		display: flex;
 		flex-wrap: wrap;

@@ -2,7 +2,7 @@
 
 @import '../../variables/variables';
 
-@media (width >= calc($mobile-width + 1px)) and (max-width: $tablet-width) {
+@media (width > $mobile-width) and (width <=$tablet-width) {
 	.nav-list {
 		display: grid;
 		justify-content: center;

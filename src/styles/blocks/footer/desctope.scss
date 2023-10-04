@@ -2,7 +2,7 @@
 
 @import '../../variables/variables';
 
-@media (width > calc($tablet-width + 1px)) {
+@media (width > $tablet-width) {
 	.footer__adress {
 		display: flex;
 		align-items: center;
