@@ -24,21 +24,21 @@
 
 .nav-list__item-picture {
 	border-radius: 10px;
-	width: 100px;
-	height: 100px;
+	width: var(--nav-list-banner-size);
+	height: var(--nav-list-banner-size);
 	object-fit: cover;
 }
 
 .nav-list__item-img {
 	border-radius: 10px;
-	width: 100px;
-	height: 100px;
+	width: var(--nav-list-banner-size);
+	height: var(--nav-list-banner-size);
 	object-fit: cover;
 }
 
 .nav-list__item-logo {
-	width: 150px;
-	height: 45px;
+	width: var(--nav-list-logo-width);
+	height: var(--nav-list-logo-height);
 	object-fit: contain;
 }
 
