@@ -6,8 +6,8 @@
 	.nav-list {
 		display: grid;
 		justify-content: center;
-		grid-template-columns: repeat(3, 150px);
+		grid-template-columns: repeat(3, var(--nav-list-item-width));
 		grid-template-rows: 1fr;
-		gap: 20px;
+		gap: 30px;
 	}
 }
