@@ -4,10 +4,10 @@
 
 @media (width > $mobile-width) and (width <=$tablet-width) {
 	.nav-list {
-		display: grid;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
 		justify-content: center;
-		grid-template-columns: repeat(3, var(--nav-list-item-width));
-		grid-template-rows: 1fr;
-		gap: 30px;
+		gap: 40px;
 	}
 }
