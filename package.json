@@ -1,6 +1,6 @@
 {
 	"name": "unicorn-index-page",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "index page for unicron services and projects",
 	"main": "index.js",
 	"scripts": {
