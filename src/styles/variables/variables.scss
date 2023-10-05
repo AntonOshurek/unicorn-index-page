@@ -17,8 +17,8 @@ $mobile-width: 700px;
 	--standart-top-padding: 80px;
 
 	/* SIZES */
-	--nav-list-item-width: 200px;
+	--nav-list-item-width: 220px;
 	--nav-list-banner-size: 150px;
-	--nav-list-logo-width: 200px;
-	--nav-list-logo-height: 65px;
+	--nav-list-logo-width: var(--nav-list-item-width);
+	--nav-list-logo-height: 60px;
 }
